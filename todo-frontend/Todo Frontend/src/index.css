@@ -1,0 +1,148 @@
+
+/* =========================================
+   TODO MANAGEMENT SYSTEM
+   FINAL GLOBAL CSS
+========================================= */
+
+:root {
+    font-family:
+        "Inter",
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+    color: #172033;
+    background: #eef2f7;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================================
+   GLOBAL RESET
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+
+    min-width: 320px;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    min-width: 320px;
+    min-height: 100vh;
+
+    background: #eef2f7;
+
+    color: #172033;
+}
+
+/* =========================================
+   ROOT
+========================================= */
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    text-align: left;
+}
+
+/* =========================================
+   FORM ELEMENTS
+========================================= */
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+/* =========================================
+   BUTTON
+========================================= */
+
+button {
+    outline: none;
+}
+
+button:focus-visible {
+    outline: 3px solid rgba(55, 48, 163, 0.25);
+    outline-offset: 2px;
+}
+
+/* =========================================
+   INPUT
+========================================= */
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: none;
+}
+
+/* =========================================
+   LINKS
+========================================= */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* =========================================
+   IMAGES
+========================================= */
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* =========================================
+   TEXT SELECTION
+========================================= */
+
+button,
+.brand-logo,
+.nav-item,
+.status,
+.task-count {
+    user-select: none;
+}
+
+/* =========================================
+   MOBILE GLOBAL
+========================================= */
+
+@media (max-width: 600px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    #root {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
