@@ -180,7 +180,7 @@ function Auth() {
         try {
 
             const response = await fetch(
-                "http://https://todo-backend-83m3.onrender.com/api/auth/forgot-password",
+                "https://todo-backend-83m3.onrender.com/api/auth/forgot-password",
                 {
                     method: "POST",
                     headers: {
@@ -246,7 +246,7 @@ function Auth() {
         try {
 
             const response = await fetch(
-                "http://https://todo-backend-83m3.onrender.com/api/auth/reset-password",
+                "https://todo-backend-83m3.onrender.com/api/auth/reset-password",
                 {
                     method: "POST",
                     headers: {
