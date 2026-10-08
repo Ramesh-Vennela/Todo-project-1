@@ -50,7 +50,7 @@ function Auth() {
         try {
 
             const response = await fetch(
-                "http://https://todo-backend-83m3.onrender.com/api/auth/login",
+                "https://todo-backend-83m3.onrender.com/api/auth/login",
                 {
                     method: "POST",
                     headers: {
@@ -117,7 +117,7 @@ function Auth() {
         try {
 
             const response = await fetch(
-                "http://https://todo-backend-83m3.onrender.com/api/auth/register",
+                "https://todo-backend-83m3.onrender.com/api/auth/register",
                 {
                     method: "POST",
                     headers: {
