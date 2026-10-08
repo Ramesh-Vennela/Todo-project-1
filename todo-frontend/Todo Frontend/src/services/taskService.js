@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/api/todos";
+const API_URL = "http://https://todo-backend-83m3.onrender.com/api/todos";
 
 // GET - Get all tasks
 export const getAllTasks = async () => {

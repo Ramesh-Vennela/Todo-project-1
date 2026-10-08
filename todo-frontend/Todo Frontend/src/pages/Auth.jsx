@@ -50,7 +50,7 @@ function Auth() {
         try {
 
             const response = await fetch(
-                "http://localhost:8080/api/auth/login",
+                "http://https://todo-backend-83m3.onrender.com/api/auth/login",
                 {
                     method: "POST",
                     headers: {
@@ -117,7 +117,7 @@ function Auth() {
         try {
 
             const response = await fetch(
-                "http://localhost:8080/api/auth/register",
+                "http://https://todo-backend-83m3.onrender.com/api/auth/register",
                 {
                     method: "POST",
                     headers: {
@@ -180,7 +180,7 @@ function Auth() {
         try {
 
             const response = await fetch(
-                "http://localhost:8080/api/auth/forgot-password",
+                "http://https://todo-backend-83m3.onrender.com/api/auth/forgot-password",
                 {
                     method: "POST",
                     headers: {
@@ -246,7 +246,7 @@ function Auth() {
         try {
 
             const response = await fetch(
-                "http://localhost:8080/api/auth/reset-password",
+                "http://https://todo-backend-83m3.onrender.com/api/auth/reset-password",
                 {
                     method: "POST",
                     headers: {
